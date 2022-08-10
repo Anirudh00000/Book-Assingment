@@ -1,0 +1,52 @@
+﻿@model BookSellingWebsite_Assessment_04_.Model.Book
+
+@{
+    ViewData["Title"] = "Description";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+    background-color:lightgreen;
+    }
+</style>
+<center><h1>Description</h1></center>
+    <a asp-action="Index">Back To The Previous Page</a>
+
+<div>
+            <h4>HorrorBook</h4>
+
+<section class="items-product1 pt-30">
+
+     <div class="container">
+
+    
+        <div class="row">
+
+      
+            <div class="col-lg-6 col-md-2 mb-6">
+                 <div class="view overlay z-depth-1-half">
+                      <p>
+       Horror is a peculiar genre. If it’s meant purely to scare, then some of the heftier books on this list would have wracked up a body count, terrifying readers to death over 700 pages or more. And what is scary? What might shock one reader is laughable to another. Ghosts, serial killers, great heaving monsters, the loss of self-control, plagues, impossible physics and a creepy clown all figure into our countdown, with entries spanning from the 1800s to the last few years. One (obvious) author makes five(!) appearances, and easily could have qualified for a few more; another has written just one novel during his decades-long career. We narrowed our focus to prose novels, so please don’t ask after The Books of Blood or Uzumaki.
+   </p>
+                 </div>
+            </div>
+            <div class="col-lg-6 col-md-2 mb-6">
+                 <div class="view overlay z-depth-1-half">
+                       <img src="https://media.gettyimages.com/photos/single-red-book-on-a-white-surface-picture-id173015527?s=612x612" class="img-fluid"
+            alt="">
+                 </div>
+            </div>
+       </div>
+
+       <hr>
+            <br>
+            <br>
+
+
+       </div>
+    
+</section>
+</div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+
